@@ -28,6 +28,11 @@ public static class Application
 		});
 		#endregion
 
+		#region Exceptions
+		services.AddProblemDetails();
+		services.AddExceptionHandler<GlobalExceptionHandler>();
+		#endregion
+
 		#region Services
 		services.AddSingleton<ITokenService, TokenService>();
 		#endregion

@@ -16,6 +16,7 @@ public class DataParserController(IMediator sender) : Controller
 	[HttpPost("parse-content")]
 	[Consumes("application/json")]
 	[Produces("application/json")]
+	[RequestSizeLimit(10 * 1024 * 1024)]
 	[ProducesResponseType(200, Type = typeof(DataParserRequestDto))]
 	[ProducesResponseType(400, Type = typeof(ProblemDetails))]
 	public async Task<IActionResult> ParseContent(
