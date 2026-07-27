@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="DataParser.Infrastructure.Tests/DataParser.Infrastructure.Tests.csproj" Id="d894dc4f-250d-4e16-a424-8a26d891b96f" />
+  </Folder>
+  <Project Path="DataParser.Infrastructure/DataParser.Infrastructure.csproj" />
+  <Project Path="DataParser.Shared/DataParser.Shared.csproj" />
+  <Project Path="DataParser/DataParser.API.csproj" />
+</Solution>

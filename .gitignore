@@ -1,0 +1,87 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.vbproj.user
+*.vcxproj.user
+*.jfm
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+artifacts/
+TestResult*/
+**/TestResults/
+*.coverage
+*.coveragexml
+coverage*/
+BenchmarkDotNet.Artifacts/
+
+# Publish
+**/publish/
+**/app.publish/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+*.deps.json
+*.runtimeconfig.dev.json
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nupkg.sha512
+*.snupkg.sha512
+packages/*
+!packages/build/
+!packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# Rider / ReSharper
+.idea/
+*.sln.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Azure
+PublishProfiles/
+*.publishsettings
+local.settings.json
+
+# Blazor / front-end tooling
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+dist/
+build/
+
+# System
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+*.swp
+*~
+
+# Opcjonalnie: ignoruj środowiskowe konfiguracje
+# (zostaw bazowy appsettings.json w repo)
+appsettings.*.json
+!appsettings.json
+
+# Opcjonalnie: lokalne sekrety użytkownika
+secrets.json
